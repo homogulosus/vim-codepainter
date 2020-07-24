@@ -127,7 +127,7 @@ function! codepainter#EraseAll() abort
   endwhile
 endfunction
 
-function! codepainter#ChangeDelimiter(nDelimiter)
+function! codepainter#ChangeDelimiter(nDelimiter) abort
   let l:nDeli = s:ValidateDelimiter(a:nDelimiter)
   if l:nDeli == ""
       return
