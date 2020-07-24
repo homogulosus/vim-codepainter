@@ -11,4 +11,4 @@ command! -nargs=0 PainterEraseAll call codepainter#EraseAll()
 
 " NOTE: Maybe is a good idea to use leader instead
 " but the user needs to be fast. Maybe not a good idea, guys check already.
-vnoremap <F2> :<c-u>call codepainter#paintText()<cr>
+vnoremap <silent><F2> :<c-u>call codepainter#paintText()<cr>
